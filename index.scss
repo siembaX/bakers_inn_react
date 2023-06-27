@@ -453,6 +453,9 @@
     }
     .middlebread{
         width: 170px;
+        @include mQ(768px){
+            display: none;
+        }
     }
 }
 
