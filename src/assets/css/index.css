@@ -23,12 +23,13 @@ h2 {
   font-weight: 800;
   letter-spacing: 2px;
   font-family: "Montserrat";
+  color: #261B6C;
 }
 
 h1 {
   font-family: "Montserrat";
   font-size: 45px;
-  color: blue;
+  color: #261B6C;
 }
 
 /* FONTS */
