@@ -20,13 +20,15 @@ body {
 
 h2 {
   font-size: 50px;
+  font-weight: 800;
   letter-spacing: 2px;
-  font-family: "avenir_lt_65_mediumbold";
+  font-family: "Montserrat";
 }
 
 h1 {
   font-family: "Montserrat";
   font-size: 45px;
+  color: blue;
 }
 
 /* FONTS */
@@ -59,7 +61,6 @@ h1 {
   text-decoration: none;
   list-style: none;
   gap: 12px;
-  font-family: "avenir_lt_std95_black";
 }
 
 .wrapper {
@@ -161,6 +162,11 @@ h1 {
   align-items: center;
   background-color: #F8F8F8;
 }
+.ProductRange-Section h2 {
+  text-align: center;
+  padding: 0 0 40px 0;
+  font-size: 45px;
+}
 .ProductRange-Section .my-btns {
   border: none;
   border-radius: 3px;
@@ -177,10 +183,6 @@ h1 {
 }
 .ProductRange-Section .my-btns:hover {
   background-color: rgb(130, 103, 33);
-}
-.ProductRange-Section h2 {
-  text-align: center;
-  padding: 0 0 40px 0;
 }
 .ProductRange-Section .product-range {
   display: flex;
@@ -565,11 +567,6 @@ h1 {
 .breadset img {
   width: 110px;
 }
-@media screen and (max-width: 768px) {
-  .breadset img {
-    display: none;
-  }
-}
 .breadset .middlebread {
   width: 170px;
 }
@@ -585,6 +582,7 @@ h1 {
 }
 .wrapper .newsletter-section .breadsettxt h2 {
   width: 70%;
+  color: #261B6C;
 }
 .wrapper .newsletter-section .breadsettxt input {
   display: flex;

@@ -55,6 +55,14 @@ const IMAGES = {
     slide4: require('./slide4.png'),
     closebtn: require('./icons/close.png'),
 
+    meatpies: require('./meatp.png'),
+    sconesp: require('./sconesp.png'),
+
+    donut1: require('./don1.png'),
+    donut2: require('./don2.png'),
+    donut3: require('./don3.png'),
+
+
 }
 
 export default IMAGES;

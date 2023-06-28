@@ -18,6 +18,7 @@ export const Navbar = () => {
   };
 
   const navLinkStyles = ({ isActive }) => {
+    
     return {
       color: isActive ? '#261B6C' : '#261b6c8c',
     };
@@ -35,9 +36,9 @@ export const Navbar = () => {
         <NavLink style={navLinkStyles} onClick={closeMenu} to="/kids">Kids</NavLink>
         <NavLink to="/contact" onClick={closeMenu} ><button>Contact</button></NavLink>
       </div>
-      {isOpen && (
+      {/* {isOpen && (
         <div className="overlay" onClick={closeMenu}>
-          <NavLink style={closedButton} onClick={closeMenu}>Close</NavLink>
+
           <div className="overlay-links">
             <NavLink style={navLinkStyles} to="/about" onClick={closeMenu}>About Us</NavLink>
             <NavLink style={navLinkStyles} to="/products" onClick={closeMenu}>Products</NavLink>
@@ -46,7 +47,7 @@ export const Navbar = () => {
             <NavLink to="/contact" onClick={closeMenu}><button>Contact</button></NavLink>
           </div>
         </div>
-      )}
+      )} */}
       <button className="toggle-button" onClick={toggleMenu}>
         <span className={`bar ${isOpen ? 'open' : ''}`} />
         <span className={`bar ${isOpen ? 'open' : ''}`} />

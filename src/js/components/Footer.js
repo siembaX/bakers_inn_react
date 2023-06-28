@@ -6,7 +6,7 @@ export const  Footer = () => {
         <div className="top-row">
             <div>
                 <hr />
-                <img src={IMAGES.footerlogo} alt="footerlogo" />
+                <a href="/"><img src={IMAGES.footerlogo} alt="footerlogo" /></a>
                 <hr />
             </div>
 
@@ -20,9 +20,9 @@ export const  Footer = () => {
                         <img src={IMAGES.feed3} alt="feed3" />
                     </div>
                     <div className="icons"> 
-                        <img src={IMAGES.twitter} alt="twitter" />
-                        <img src={IMAGES.fb} alt="facebook" />
-                        <img src={IMAGES.linkedin} alt="linkedin" />
+                        <a target="_blank" href="www.twitter.com"><img src={IMAGES.twitter} alt="twitter" /></a>
+                        <a target="_blank" href="www.facebook.com"><img src={IMAGES.fb} alt="facebook" /></a>
+                        <a target="_blank" href="www.linnkedin.com"><img src={IMAGES.linkedin} alt="linkedin" /></a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export const  Footer = () => {
                     <h3>Our Location</h3>
                     <div>
                     <img src={IMAGES.call} alt="" />
-                    <p> 08080151 </p>
+                    <p>08080151 </p>
                     </div>
                     
                     <div>
@@ -55,7 +55,7 @@ export const  Footer = () => {
 
                     <div>
                     <img src={IMAGES.mail} alt="" />
-                    <p> marketing@bakersinnzim.com </p>
+                    <p>marketing@bakersinnzim.com </p>
                     </div>
                     
                 </div>

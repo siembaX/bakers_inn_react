@@ -23,7 +23,6 @@
     text-decoration: none;
     list-style: none;
     gap: 12px;
-    font-family: 'avenir_lt_std95_black';
 } 
 
 .wrapper {
@@ -65,6 +64,7 @@
     }
 }
 .Hero-About{
+    
     padding: 70px 0 0 0;
     #Hero-AboutContect{
         padding: 0 0 30px 0;
@@ -109,6 +109,12 @@
     align-items: center;
     background-color: $faded_w_bg;
 
+    h2{
+        text-align: center;
+        padding: 0 0 40px 0;
+        font-size: 45px;
+    }
+
     .my-btns{
         @include buttons;
         display: flex;
@@ -118,10 +124,7 @@
         text-decoration: none;
     }
 
-    h2{
-        text-align: center;
-        padding: 0 0 40px 0;
-    }
+
 
     .product-range{
         display: flex;
@@ -447,9 +450,6 @@
     bottom: 40px;
     img{
         width: 110px;
-        @include mQ(768px){
-            display: none;
-        }
     }
     .middlebread{
         width: 170px;
@@ -462,6 +462,7 @@
 .wrapper .newsletter-section .breadsettxt{
     h2{
         width: 70%;
+        color: $text_blue;
     }
     position: relative;
     top:120px;

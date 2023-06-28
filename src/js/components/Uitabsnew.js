@@ -15,6 +15,10 @@ export const Uitabsnew = (props) => {
       
     }
 
+    const donutimages = {
+      width: '200px',
+    }
+
     const cardInStyling = {
       border:'none',
       backgroundColor: '#deb887',
@@ -26,26 +30,29 @@ export const Uitabsnew = (props) => {
     const h2styling = {
       alignItems: 'center',
       textAlign: 'center',
+      color:'#261B6C',
+      fontSize: '40px'
     }
     return ( 
 
 
     <div className="" style={h2styling}>
-    <h2>Our Products</h2>
+    <h1>Our Products</h1>
+    <div className="gap-below"></div>
     <Tabs position="relative" variant="unstyled" align='center' fontSize={40}>
     <TabList>
-      <Tab>Bread</Tab>
-      <Tab>Meat Pies</Tab>
-      <Tab>Scones</Tab>
-      <Tab>Scones</Tab>
+      <Tab fontSize={30}>Bread</Tab>
+      <Tab fontSize={30}>Meat Pies</Tab>
+      <Tab fontSize={30}>Scones</Tab>
+      <Tab fontSize={30}>Donuts</Tab>
 
     </TabList>
 
     <TabIndicator
       mt="-1.5px"
-      height="5px"
-      bg="blue.500"
-      borderRadius="1px"
+      height="7px"
+      bg="#B2904C"
+      borderRadius="2px"
       align='center'
     />
 
@@ -101,53 +108,37 @@ export const Uitabsnew = (props) => {
       <div className="row">
         <div className="col-lg-4">
           <div className="card" style={cardInStyling}>
-            <img style={breadStyling} src={IMAGES.card2} alt="" />
+            <img style={donutimages}  src={IMAGES.meatpies} alt="" />
             <div className="card-body">
-              <Columns h2='Sweet Shortbread' />
+            <p>Yummy Meat Pies</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
-              </div>
-
-              <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
+              <h6>Our Family Loaf High Energy Brown loaves are a great source of fibre, high in energy and fortified with vitamins and minerals! They are perfect for sandwiches, toast, breadcrumbs – anything! The Family Loaf has 21 slices.</h6>
               </div>
             </div>
           </div>
         </div>
 
         <div className="col-lg-4">
-          <div className="card">
-            <img src={IMAGES.card2} alt="" />
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.meatpies} alt="" />
             <div className="card-body">
-              <Columns h2='Sweet Shortbread' />
+            <p>Yummy Meat Pies</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
+                
+                <h6>Our Premium Soft juicy meatpies are delightfully soft, fresh and delicious. They are loaded with energy and fortified with vitamins and minerals for the classic everyday bread. The Standard Loaf has 18 slices.</h6>
               </div>
 
-              <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
-              </div>
             </div>
           </div>
         </div>
 
         <div className="col-lg-4">
-          <div className="card">
-            <img src={IMAGES.card2} alt="" />
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.meatpies} alt="" />
             <div className="card-body">
-              <Columns h2='Sweet Shortbread' />
+              <p>Yummy Meat Pies</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
-              </div>
-
-              <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
+                <h6>Our Family Loaf High Energy Brown loaves are a great source of fibre, high in energy and fortified with vitamins and minerals! They are perfect for sandwiches, toast, breadcrumbs – anything! The Family Loaf has 21 slices.</h6>
               </div>
             </div>
           </div>
@@ -161,54 +152,79 @@ export const Uitabsnew = (props) => {
       <TabPanel>
       <div className="row">
         <div className="col-lg-4">
-          <div className="card">
-            <img src={IMAGES.salmonstrips} alt="" />
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.sconesp} alt="" />
             <div className="card-body">
-              <Columns h2='Salmon Strips' />
+              <p>Sugar Free Scones</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
-              </div>
-
-              <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h6>
               </div>
             </div>
           </div>
         </div>
 
         <div className="col-lg-4">
-          <div className="card">
-            <img src={IMAGES.salmonstrips} alt="" />
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.sconesp} alt="" />
             <div className="card-body">
-              <Columns h2='Salmon Strips' />
+              <p>Sugar Free Scones</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
-              </div>
-
-              <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
               </div>
             </div>
           </div>
         </div>
 
         <div className="col-lg-4">
-          <div className="card">
-            <img src={IMAGES.salmonstrips} alt="" />
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.sconesp} alt="" />
             <div className="card-body">
-              <Columns h2='Salmon Strips' />
+              <p>Sugar Free Scones</p>
               <div className='preptimes'>
-                <h5>Prep Time: </h5>
-                <h5><span>20 min</span></h5>
+              <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
               </div>
+            </div>
+          </div>
+        </div>
 
+        <div className="gap-below"></div>
+        
+      </div>
+      </TabPanel>
+
+      <TabPanel>
+      <div className="row">
+        <div className="col-lg-4">
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.donut1} alt="" />
+            <div className="card-body">
+              <p>Sprinkled Choc Donuts</p>
               <div className='preptimes'>
-                <h5>Serves: </h5>
-                <h5><span>6 people</span></h5>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4">
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.donut2} alt="" />
+            <div className="card-body">
+              <p>Caramel Choc Donuts</p>
+              <div className='preptimes'>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4">
+          <div className="card" style={cardInStyling}>
+            <img style={donutimages} src={IMAGES.donut3} alt="" />
+            <div className="card-body">
+              <p>Chocolate Donuts</p>
+              <div className='preptimes'>
+              <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
               </div>
             </div>
           </div>
