@@ -60,8 +60,8 @@ const BUTTON_LAYOUT ={
             <div className="row">
               <div className="col-lg-6" id='hero-txt'>
                 <h1>Bringing you the 
-                <br /> best value at the 
-                <br />best prices.</h1>
+                <br /> <span className='underrule'>best value</span> at the 
+                <br /> <span className='underrule'>best prices.</span></h1>
                 <p>The freshest sandwiches you can make are
                 <br /> with Baker’s inn soft white loaf.</p>
                 <a href="#Hero-about"><button>READ MORE</button></a>

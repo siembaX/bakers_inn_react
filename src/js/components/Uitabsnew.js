@@ -21,7 +21,7 @@ export const Uitabsnew = (props) => {
 
     const cardInStyling = {
       border:'none',
-      backgroundColor: '#deb887',
+      backgroundColor: '#F7F5E8',
       alignItems: 'center',
       textAlign: 'center',
 

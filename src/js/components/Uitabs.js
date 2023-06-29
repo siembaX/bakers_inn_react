@@ -6,23 +6,53 @@ import IMAGES from '../../images/index1'
 
 
 export const Uitabs = (props) => {
+
+  const breadStyling = {
+    width: '160px',
+    position: 'relative',
+    top: '-20px',
+    textAlign: 'center',
+    
+  }
+
+  const donutimages = {
+    width: '200px',
+  }
+
+  const cardInStyling = {
+    border:'none',
+    backgroundColor: '#deb887',
+    alignItems: 'center',
+    textAlign: 'center',
+
+  }
+
+  const h2styling = {
+    alignItems: 'center',
+    textAlign: 'center',
+    color:'#261B6C',
+    fontSize: '40px'
+  }
+
     return ( 
 
 
-    <div className="">
+    <div className="" style={h2styling}>
+    <h1>Baker’s Recipes</h1>
+    <div className="gap-below"></div>
     <Tabs position="relative" variant="unstyled" align='center' fontSize={40}>
     <TabList>
-      <Tab>For Kids</Tab>
-      <Tab>For Vegans</Tab>
-      <Tab>For Family</Tab>
+      <Tab fontSize={30}>For Kids</Tab>
+      <Tab fontSize={30}>For Vegans</Tab>
+      <Tab fontSize={30}>For Family</Tab>
 
     </TabList>
 
     <TabIndicator
       mt="-1.5px"
-      height="5px"
-      bg="blue.500"
-      borderRadius="1px"
+      height="7px"
+      bg="#B2904C"
+      borderRadius="2px"
       align='center'
     />
 
